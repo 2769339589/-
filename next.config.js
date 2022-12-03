@@ -55,7 +55,7 @@ waline:
   placeholder: 请文明评论呀 //评论框的默认文字
   avatar: mm //头像风格
   meta: [nick, mail, link] // 自定义评论框上面的三个输入框的内容
-  pageSize: 10 #//评论数量多少时显示分页
+  pageSize: 10 //评论数量多少时显示分页
   lang: zh-cn // 语言, 可选值: en, zh-cn
   // Warning: 不要同时启用 `waline.visitor` 以及 `leancloud_visitors`.
   visitor: false // 文章阅读统计

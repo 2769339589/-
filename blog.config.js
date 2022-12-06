@@ -162,7 +162,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_DESCRIPTION || '龙葵的博客', // 站点描述，被notion中的页面描述覆盖
 
   isProd: process.env.VERCEL_ENV === 'Powered', // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  VERSION: process.env.NEXT_PUBLIC_VERSION // 版本号
+  VERSION: process.env.NEXT_PUBLIC_VERSION www.longkui.cc,// 版本号
 }
 
 module.exports = BLOG

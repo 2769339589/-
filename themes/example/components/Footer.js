@@ -22,7 +22,7 @@ export const Footer = (props) => {
                 {BLOG.BEI_AN && (<a href="https://beian.miit.gov.cn/" className="text-black dark:text-gray-200 no-underline hover:underline ml-4">{BLOG.BEI_AN} </a>)}
                 <span className='dark:text-gray-200 no-underline ml-4'>
                     Powered by
-                    <a href="https://2769339589/ik" className=' hover:underline'> longkui {BLOG.VERSION}  </a>
+                    <a href="https://github.com/2769339589" className=' hover:underline'> longkui {BLOG.VERSION}  </a>
                 </span>
             </div>
         </div>
